@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Neo Magolela">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Wishlist</title>
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="heading">
+         <h1>My Life Wish List</h1>
+         <p>Finding things to do both between work, life and entertainment</p>
+        </div>
+ 
+         <div class="content">
+             <div class="wish_form" id="wishform">
+                 <form id="wishlistForm">
+                    <h3>Add Wishes</h3>
+                  <label for="title">Title</label> <br>
+                  <input type="text" id="title" name="title" placeholder="Enter Your Wish" required><br>
+                  <label for="description">Description</label><br>
+                  <input type="text" id="description" name="description" placeholder="Describe Your Wish" required><br>
+                  <label for="date">Expected Date</label><br>
+                  <input type="datetime-local" name="date" id="date" required><br>
+                  <button class="btn" type="submit">Add Wish</button>
+                 </form>
+              </div>
+      
+              <div class="list">
+                 <h3>Your Wishes</h3>
+                 <div class="cards" id="wishlistCards">
+                     
+                  </div>
+              </div>
+         </div>
+     </div>
+ 
+    
+    <script src="main.js"></script>
+</body>
+</html>
